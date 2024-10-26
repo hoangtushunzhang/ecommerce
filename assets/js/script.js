@@ -1,6 +1,6 @@
 const bar = document.querySelector('#bar');
-const close = document.querySelector("#close");
-const nav = document.querySelector('#navbar');
+const close = document.querySelector(".header__navbar--close");
+const nav = document.querySelector('.header__navbar');
 
 if (bar) {
     bar.addEventListener('click', () => {
